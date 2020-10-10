@@ -1,0 +1,134 @@
+/* Project-wide style */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  .responsive {
+    width: auto;
+    
+  }
+  
+  .big-text{
+      font-size: 48px;
+      margin: 20px 0;
+      color:darkorange; 
+  }
+  .med-text{
+      font-size: 25px;
+      margin: 30px 0;
+      color: black;
+  }
+  .button{
+      margin: 30px 10px;
+      width: 150px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: darkorange;
+      color: #ffffff;
+  }
+  .section-1{
+      padding: 20vmin 0;
+      background-color: orange;
+  }
+
+  .section-1.row.col-md-6.pray img{
+      opacity: 0.8;
+      width: 80%;
+      border-radius: 0.2em;;
+  }
+
+  .section-1.row.col-md-6:last-child{
+      position: relative;
+  }
+
+  .section-1 .row .col-md-6.panel{
+      position :absolute;
+      top: 7vmin;
+      left: -18vmin;
+      background: darkorange;
+      border-radius: 3px;
+      text-align:left;
+      padding: 13vmin 5vmin 20vmin 10vmin;
+      box-shadow: 0px 25px 42px rgba(0, 0,0, 0.2)
+  }
+  .line {
+      height: 4px;
+      width: 320px;
+      margin-left: 0;
+      background-color: black;
+      display: inline-block;
+  }	
+  .card {
+      margin: 80px; 
+      
+  }
+  .card:hover {
+      transform: scale(1.1);
+      transition: ease-in-out 0.3s;
+      box-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+      
+  }
+
+  
+  .card-img-top {
+      width: 120px; 
+      height:120px; 
+      border-radius: 50%; 
+      margin-left: 60px; 
+      margin-top: 20px;  
+  }
+  .card-title {
+      text-align: center;
+      padding-top: 15px;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    
+    width: 220px;
+    height: 300px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  .table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+}
